@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cart-box{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #EEE5E9; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: goldenrod; */
+    background-image: url('background2.jpg');
+    background-size: cover;
+}
+
+
+.cart-items{
+    height: 95%;
+    width: 70%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    justify-content: space-evenly;   
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #f3f3f3;
+    border-radius: 0.4rem;
+}
+
+.item{
+    display: flex;
+    width: 95%;
+    height: 8%;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    align-items: center;
+    background-color: #383D3B;
+    /* margin: 0.4rem; */
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 95.2%;
+    height: 8.1%;
+}
+
+.item p{
+    font-size: 1.3rem;
+    color: white;
+}
+
+#del-img{
+    height: 70%;
+    width: 3%;
+    border-radius: 30%;
+    margin: 0.5rem;
+}
+
+.price-div{
+    display: flex;
+    width: 95%;
+    height: 8%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #383D3B;  
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+}
+    
+
+.price-div:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 95.2%;
+    height: 8.1%;
+}
+
+.price-div p{
+    color:white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0.6rem;
+}
+
+#continue-btn{
+    height: 90%;
+    width: 20%;
+    border-radius: 0.4rem;
+    border: none;
+    margin: 0 1.4rem;
+    background-color: yellow;
+}
+
+#continue-btn a{
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#continue-btn:hover{
+    background-color: green;
+    color: white;
+}
+    
+#continue-btn a:hover{
+    color: #f3f3f3;
+}
+

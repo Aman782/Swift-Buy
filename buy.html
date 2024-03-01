@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Now</title>
+    <link rel="stylesheet" href="buy.css">
+</head>
+<body>
+    <div class="buy-container">
+        <div class="buy-box">
+            <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                <input type="hidden" name="access_key" value="19ddd20c-ca3b-437e-8ea1-657ad316d5e4">
+                <input type="text" name="name" placeholder="enter your name" id="name" required><br>
+                <input type="email" name="email" placeholder="enter your email" id="email" required><br>
+                <input type="number" name="phone" placeholder="enter your phone no" id="phone" required><br>
+                <input type="hidden" name="price" id="price-in">
+                <textarea id="address" cols="30" rows="4" name="message" placeholder="enter your address" required></textarea><br>
+                <select id="pay-opt" name="payment-mode" required>
+                    <option value="select">Select</option>
+                    <option value="Credit Card">Credit Card</option>
+                    <option value="Debit Card">Debit Card</option>
+                    <option value="Cash">Cash On Delivery</option>
+                    <option value="UPI">UPI</option>
+                </select>
+                <div class="order-items">
+                    <div class="net-amount"></div>
+                    <button type="submit" id="place-order">Place Order</button>
+                </div>
+            </form>
+        </div>
+    </div>  
+
+
+    <script src="buy.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>

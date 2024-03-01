@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buy-container{
+    background-image: url('greg-rakozy-oMpAz-DN-9I-unsplash.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-box{
+    height: 80%;
+    width: 45%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #c9ef69;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#form{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form input{
+    height: 9%;
+    width: 95%;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border: none;
+}
+
+#form textarea{
+    /* height: 9%; */
+    width: 95%;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border: none;
+}
+
+#form select{
+    height: 9%;
+    width: 95%;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.order-items{
+    height: 9%;
+    width: 95%;
+    border-radius: 0.4rem;
+    padding: 0.2rem; 
+    margin: 1rem 0 0 0;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #383D3B;
+    margin: 0.4rem 0;
+}
+
+.order-items:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.net-amount{
+    height: 95%;
+    width: 35%;
+    /* border: 2px solid brown; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 1.34rem;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 0 0 0.5rem;
+}
+
+#place-order{
+    height: 95%;
+    width: 25%;
+    margin: 0 1rem;
+    border: none; 
+    border-radius: 0.4rem;
+    background-color:blueviolet;
+    font-size: 1.34rem;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+    text-decoration: none;
+    color: #fff;
+}
+
+#place-order:hover{
+    background-color: green;
+    color: wheat;
+}
+
